@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="a.css">
+</head>
+<body>
+    <input type="text" id="filter-input" placeholder="Search menu here..." />
+    <!-- <h3 style="text-align: left;">Menu</h3> -->
+    <div class="wrapper">
+      
+        
+        <div class="container1">
+      
+            <div id="menu"></div>
+        </div>
+        
+        <div class="container2">
+            <!-- <h3 style="text-align: center;">Tables</h3> -->
+            <input type="text" id="table-search" placeholder="Search table here..." />
+            
+            <div id="table-container">
+                <div class="table" id="Table1" droppable="true" data-items="0" data-price="0">
+                    <p>Table 1</p>
+                    <p>Items: <span id ="Table1-count" class="item-count">0</span><br> Total: Rs. <span id = "Table1-price" class="total-price" >0</span></p>
+                  </div>
+                  <div class="table" id="Table2" droppable="true" data-items="0" data-price="0">
+                    <p>Table 2</p>
+                    <p>Items: <span id ="Table2-count" class="item-count">0</span><br> Total: Rs. <span id = "Table2-price" class="total-price">0</span></p>
+                  </div>
+                  <div class="table" id="Table3" droppable="true" data-items="0" data-price="0">
+                    <p>Table 3</p>
+                    <p>Items: <span id ="Table3-count" class="item-count">0</span><br> Total: Rs. <span id = "Table3-price" class="total-price">0</span></p>
+                  </div>
+                <!-- Add a modal or popup container -->
+<div id="modal" class="modal">
+    <div class="modal-content">
+      <!-- <span class="modal-close-button">&times;</span> -->
+      <h2 class="modal-table-title"></h2>
+      <div class="modal-menu-items">
+        <h3>Menu Items:</h3>
+        <ul id="modal-menu-list"></ul>
+       
+        <p id="modal-total-price"></p>
+        <button class="modal-close-session-button" onclick="closeSession()">Close Session</button>
+        <button id="generate-bill-button" onclick="Bill()">Generate Bill</button>
+
+      </div>
+    </div>
+  </div>
+  
+            </div>
+        </div>
+    </div>
+    <script src="a.js"></script>
+    
+</body>
+</html>
