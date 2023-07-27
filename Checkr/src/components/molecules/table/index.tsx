@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import { Table, TableContainer, TableHead, TableBody, TableRow, TableCell, Paper } from '@mui/material';
-import { Dialog, DialogTitle, DialogContent,ThemeProvider, Box  } from '@mui/material';
+import { Table, TableContainer, TableHead, TableBody, TableRow, TableCell, Paper, Dialog, DialogTitle, DialogContent,ThemeProvider, Box } from '@mui/material';
 import Chips from '../../../components/atoms/Chips/index';
 import theme from '../../../components/themes/index';
 import SearchIcon from '@mui/icons-material/Search';
