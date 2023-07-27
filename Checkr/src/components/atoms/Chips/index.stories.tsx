@@ -1,14 +1,12 @@
 import React from 'react';
 import { Meta, Story } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
-//import { ChipProps } from '@mui/material/Chip';
 import Chips, { ChipsProps } from '../../../components/atoms/Chips/index';
-//import { withControls } from 'storybook-addon-controls';
+
 
 export default {
     title: 'Atoms/Chips',
     component: Chips,
-    // decorators: [withControls],
     argTypes: {
         label: { control: 'text' },
     },

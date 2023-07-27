@@ -4,7 +4,6 @@ import TableMolecule  from '../../../components/molecules/table/index';
 import { ThemeProvider } from '@mui/material/styles'; 
 import { TableData } from '../../../components/molecules/table/index';
 import theme from '../../../components/themes/index';
-//  import { Link } from 'react-router-dom';
 import Layout from '../../../components/templates/Layout/index';
 
 const Table =() => {

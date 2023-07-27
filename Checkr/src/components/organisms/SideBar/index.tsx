@@ -19,7 +19,7 @@ const theme = createTheme({
           display: 'flex',
           flexDirection: 'column',
           width: '238px',
-          height: '100vh', // Subtract the height of the footer
+          height: '100vh', 
           backgroundColor: '#f5f5f5',
           boxShadow: '2px 0px 5px rgba(0, 0, 0, 0.2)',
           margin: '20px',
@@ -44,7 +44,7 @@ const theme = createTheme({
         },
         button: {
           '&:hover': {
-            backgroundColor: 'lightblue', // Change the background color here
+            backgroundColor: 'lightblue',
           },
         },
       },
@@ -53,7 +53,7 @@ const theme = createTheme({
       styleOverrides: {
         primary: {
           '&:hover': {
-            color: 'blue', // Change the text color here
+            color: 'blue', 
           },
         },
       },

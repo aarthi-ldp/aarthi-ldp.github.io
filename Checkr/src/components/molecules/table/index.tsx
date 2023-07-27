@@ -24,7 +24,7 @@ export interface TableData {
   adjusdiction: string;
   status: {
     label: string;
-    //color: string;
+  
   };
   location: string;
   date: string;
@@ -33,7 +33,6 @@ export interface TableData {
 interface TableMoleculeProps {
   headerLabels: string[];
   tableData: TableData[];
-  // onRowClick: (rowData: TableData) => void;
 
 }
 
@@ -83,7 +82,7 @@ const TableMolecule: React.FC<TableMoleculeProps> = (props) => {
     });
     setcheckedItems(checkedItems);
     setFilteredData(filteredTableData);
-    // setopenFilter(false);
+   
   };
 
   return (
@@ -91,7 +90,7 @@ const TableMolecule: React.FC<TableMoleculeProps> = (props) => {
     <div>
     <AtomTypography variant="h1" text = "Candidates"/>
    
-    {/* </AtomTypography> */}
+   
 
     <TableContainer component={Paper}>
       

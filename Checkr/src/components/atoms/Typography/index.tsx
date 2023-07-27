@@ -8,11 +8,11 @@ interface AtomTypographyProps extends TypographyProps {
 }
 
 const AtomTypography: React.FC<AtomTypographyProps> = (props) => {
-  const { text, variant, ...typographyProps } = props; // Destructure the variant prop
+  const { text, variant, ...typographyProps } = props; 
   const currentTheme = useTheme();
 
   const defaultVariant = 'body1';
-  const typographyStyle = variant ? getTypographyStyle(currentTheme, variant || defaultVariant) : {}; // Check if variant is defined
+  const typographyStyle = variant ? getTypographyStyle(currentTheme, variant || defaultVariant) : {};
 
   return (
     <Typography {...typographyProps} style={typographyStyle}>

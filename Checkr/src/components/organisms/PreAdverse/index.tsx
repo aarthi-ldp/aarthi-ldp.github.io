@@ -1,5 +1,4 @@
 import React from 'react';
-//import theme from '../../../components/themes/index';
 import Layout from '../../../components/templates/Layout/index';
 import Buttons from '../../../components/atoms/Button/index';
 import { useState } from 'react';
@@ -22,7 +21,6 @@ import PreviewModal from '../PreviewModal';
     <Layout>
     <div style={{
         maxWidth: '900px',
-        // margin: '0 auto',
         border: '1px solid #ccc',
         padding: '20px',
         marginTop: '30px',
@@ -51,8 +49,6 @@ import PreviewModal from '../PreviewModal';
         <input
           type="checkbox"
           name="Driving while license suspended"
-          // checked={isCheckboxChecked} 
-          //     onChange={handleCheckboxChange}
           />
           Driving while license suspended
           </label>
@@ -73,8 +69,7 @@ import PreviewModal from '../PreviewModal';
         <input
           type="checkbox"
           name="Unable to verify Employment History at Dunder Miffins"
-          // checked={isCheckboxChecked} 
-          //     onChange={handleCheckboxChange}
+          
           />
           Unable to verify Employment History at Dunder Miffins
           </label>

@@ -6,7 +6,7 @@ import InputAdornment from '@mui/material/InputAdornment';
 export interface TextfieldProps {
   value: string;
   onChange: (event: React.ChangeEvent<HTMLInputElement>) => void;
-  placeholder?: string; // Add the placeholder property
+  placeholder?: string; 
   label?: string;
   InputProps?: {
     startAdornment?: JSX.Element;

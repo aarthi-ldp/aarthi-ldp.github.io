@@ -30,14 +30,14 @@ const PreviewModal: React.FC<PreviewModalProps> = ({ onClose, onSubmitPreview })
           width: '400px',
         }}
       >
-        {/* Modal Header */}
+       
         <div
           style={{
             display: 'flex',
             justifyContent: 'space-between',
             alignItems: 'center',
             marginBottom: '10px',
-            // marginTop : '30px',
+            
           }}
         >
           <h3 style={{ margin: 0 }}>Pre-Adverse Action Notice </h3>
@@ -65,7 +65,7 @@ const PreviewModal: React.FC<PreviewModalProps> = ({ onClose, onSubmitPreview })
             sx={{
               backgroundColor: '#ffcccc', 
               color: 'red',
-            //   padding: '10px', 
+           
               boxShadow: '0px 0px 8px rgba(0, 0, 0, 0.2)', 
               borderRadius: '4px', 
             }}

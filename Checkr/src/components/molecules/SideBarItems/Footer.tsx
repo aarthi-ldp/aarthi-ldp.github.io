@@ -19,7 +19,7 @@ export default function  Footer () {
     );
   };
   
-  // export default UserProfile;
+
   
   
   

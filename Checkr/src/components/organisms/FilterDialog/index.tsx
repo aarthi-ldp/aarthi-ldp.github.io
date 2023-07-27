@@ -12,9 +12,7 @@ interface CheckboxBoxProps {
 const CheckboxBox: React.FC<CheckboxBoxProps> = (props) => {
   const { onApply,checkedItems } = props;
 
-// useEffect (() => {
-//   onApply(checkedItems)
-// }, [checkedItems]); 
+
 
 
   const handleCheckboxChange = (event: React.ChangeEvent<HTMLInputElement> ) => {
@@ -22,13 +20,10 @@ const CheckboxBox: React.FC<CheckboxBoxProps> = (props) => {
       ...checkedItems,
       [event.target.name]: event.target.checked,
     }
-  //  setcheckedItems(temp);
+  
     onApply(temp);
   };
-  // const handleApplyClick = () => {
-  //   onApply(checkedItems);
-
-  // };
+  
 
   return (
     <div>
@@ -62,7 +57,6 @@ const CheckboxBox: React.FC<CheckboxBoxProps> = (props) => {
         Consider
       </label>
       <br />
-      {/* <button onClick={handleApplyClick}>Apply</button> */}
       </div>
   );
 };

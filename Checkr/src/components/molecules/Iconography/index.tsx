@@ -1,6 +1,5 @@
 import React from 'react';
 import Icon from '../../../components/atoms/Icons/index';
-//import AtomTypography from '../../../components/atoms/Typography/index';
 import { Typography } from '@mui/material';
 
 interface IconographyProps {

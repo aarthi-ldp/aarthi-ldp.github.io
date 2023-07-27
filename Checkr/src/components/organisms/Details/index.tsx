@@ -13,14 +13,13 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import CardArray from '../../molecules/Card';
 import CardArray2 from '../../../components/molecules/CardArray2/index';
 import Iconography from '../../../components/molecules/Iconography/index';
-//import AtomTypography from '../../atoms/Typography';
-//import { useHistory } from 'react-router-dom';
+
 
 export const Details = () => {
   const navigate = useNavigate();
 
   const handlePreAdverseAction = () => {
-    navigate('/pre-adverse'); // Navigate to the PreAdverse page
+    navigate('/pre-adverse'); 
   };
 
   return (
@@ -92,7 +91,7 @@ export const Details = () => {
 };
 
 const pageContainerStyle = {
-  paddingTop: '50px', // Adjust the top padding to leave space at the top
+  paddingTop: '50px', 
 };
 
 const headerStyle = {
