@@ -1,7 +1,6 @@
-import React from 'react';
+import React,{ useState } from 'react';
 import Layout from '../../../components/templates/Layout/index';
 import Buttons from '../../../components/atoms/Button/index';
-import { useState } from 'react';
 import PreviewModal from '../PreviewModal';
 
  const PreAdverse = () => {

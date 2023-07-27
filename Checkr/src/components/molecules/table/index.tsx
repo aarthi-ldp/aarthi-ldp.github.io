@@ -3,7 +3,7 @@ import { Table, TableContainer, TableHead, TableBody, TableRow, TableCell, Paper
 import { Dialog, DialogTitle, DialogContent } from '@mui/material';
 import Chips from '../../../components/atoms/Chips/index';
 import theme from '../../../components/themes/index';
-import { ThemeProvider } from '@mui/system';
+import { ThemeProvider, Box } from '@mui/system';
 import SearchIcon from '@mui/icons-material/Search';
 import FilterListIcon from '@mui/icons-material/FilterList';
 import { MoreVertOutlined } from '@mui/icons-material';
@@ -12,7 +12,6 @@ import Stack from '@mui/material/Stack';
 import Textfield from '../../../components/atoms/TextField/index';
 import InputAdornment from '@mui/material/InputAdornment';
 import Buttons from '../../../components/atoms/Button/index';
-import { Box } from '@mui/system';
 import CheckboxBox from '../../../components/organisms/FilterDialog/index';
 import AtomTypography from '../../atoms/Typography';
 import { Link } from 'react-router-dom';
