@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
 import { Table, TableContainer, TableHead, TableBody, TableRow, TableCell, Paper } from '@mui/material';
-import { Dialog, DialogTitle, DialogContent } from '@mui/material';
+import { Dialog, DialogTitle, DialogContent,ThemeProvider, Box  } from '@mui/material';
 import Chips from '../../../components/atoms/Chips/index';
 import theme from '../../../components/themes/index';
-import { ThemeProvider, Box } from '@mui/system';
 import SearchIcon from '@mui/icons-material/Search';
 import FilterListIcon from '@mui/icons-material/FilterList';
 import { MoreVertOutlined } from '@mui/icons-material';
