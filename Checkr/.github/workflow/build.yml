@@ -3,15 +3,11 @@ on:
   push:
     branches:
       - main
-    paths:
-      - "Checkr/**"
   pull_request:
     types: [opened, synchronize, reopened]
-    paths:
-      - "Checkr/**"
 jobs:
  sonarcloud:
-   if: startsWith(github.head_ref, 'FE_') && github.event.pull_request.merged == false
+   if: ( startsWith(github.head_ref, 'FE_') && github.event.pull_request.merged == false ) || ( github.event_name == 'push' )
    name: SonarCloud
    runs-on: ubuntu-latest
    defaults:
