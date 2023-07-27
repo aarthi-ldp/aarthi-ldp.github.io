@@ -3,6 +3,8 @@ import { render, screen } from '@testing-library/react';
 import Chips from './index'; 
 import theme from '../../themes';
 import { ThemeProvider } from '@mui/material/styles'; 
+import '@testing-library/jest-dom/extend-expect';
+
 
 test('Chips renders correctly with the given label', () => {
   render(

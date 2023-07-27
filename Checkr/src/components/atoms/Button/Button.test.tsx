@@ -1,6 +1,7 @@
 import React from "react";
 import { render, screen, fireEvent } from '@testing-library/react';
 import Buttons from './index';
+import '@testing-library/jest-dom/extend-expect';
 
 test('Button renders correctly with the given text', () => {
     render(<Buttons text="Click Me" />);

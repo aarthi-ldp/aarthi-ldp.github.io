@@ -1,6 +1,7 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
 import AtomTypography from '../../../components/atoms/Typography/index'; // Adjust the import path based on the file structure
+import '@testing-library/jest-dom/extend-expect';
 
 // Test Case 1: Check if the component renders the provided text correctly
 test('AtomTypography renders the provided text correctly', () => {

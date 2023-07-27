@@ -3,6 +3,7 @@ import { render, screen, fireEvent } from '@testing-library/react';
 import Textfield from '../../../components/atoms/TextField/index';
 //import { TextFieldProps } from '../../../components/atoms/TextField/index'; // Make sure to import the interface for type checking
 import SearchIcon from '@mui/icons-material/Search';
+import '@testing-library/jest-dom/extend-expect';
 
 // Mock onChange function for testing
 const mockOnChange = jest.fn();
