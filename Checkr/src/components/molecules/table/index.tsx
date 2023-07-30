@@ -18,7 +18,7 @@ import { Link } from 'react-router-dom';
 export interface TableData {
   id: number;
   name: string;
-  adjusdiction: string;
+  adjusdiction: string;  
   status: {
     label: string;
   
