@@ -10,14 +10,13 @@ jest.mock('../../../components/molecules/TableComponent/index', () => {
     __esModule: true,
     default: ({ data }: { data: any[] }) => (
       <div data-testid="mock-table-component">
-        {/* You can also output the data as text for easier testing */}
         {JSON.stringify(data)}
       </div>
     ),
   };
 });
 
-// The actual test cases
+
 describe('TableStatus Component', () => {
   it('renders the TableComponent with the correct data', () => {
     const data = [
@@ -30,12 +29,9 @@ describe('TableStatus Component', () => {
 
     render(<TableStatus />);
 
-    // Check if the TableComponent is rendered
     expect(screen.getByTestId('mock-table-component')).toBeInTheDocument();
 
-    // Check if the data is rendered correctly (you can adjust the data as needed)
     expect(screen.getByText(JSON.stringify(data))).toBeInTheDocument();
   });
 
-  // Add more test cases here for different scenarios as needed.
-});
+ });
