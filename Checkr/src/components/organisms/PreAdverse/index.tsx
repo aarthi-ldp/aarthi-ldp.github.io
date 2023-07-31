@@ -30,11 +30,11 @@ import PreviewModal from '../PreviewModal';
         color: 'gray',
     }}>
     
-        <b>From:</b> Kyle@Checkr.com
+        <b data-testid="from-email" >From:</b> Kyle@Checkr.com
         <hr/>
-        <b>To:</b> John.Smith@Checkr.com
+        <b data-testid="to-email">To:</b> John.Smith@Checkr.com
         <hr/>
-        <b>Subject:</b> Pre-Adverse Action Notice - Checkr-Bpo
+        <b data-testid="subject">Subject:</b> Pre-Adverse Action Notice - Checkr-Bpo
         <hr/>
         <br/>
         Dear John Smith,
@@ -42,7 +42,7 @@ import PreviewModal from '../PreviewModal';
         reports about you from a consumer reporting agency. The company is considering taking action in whole or in past on <br/>
         information in such report(s) including the following specific items identified in the report prepared by Checkr,Inc.</p> 
         <br/>
-        <b>Select the Charges For The Pre Adverse Action</b><br/><br/>
+        <b data-testid="charges">Select the Charges For The Pre Adverse Action</b><br/><br/>
         <div>
         <label>
         <input

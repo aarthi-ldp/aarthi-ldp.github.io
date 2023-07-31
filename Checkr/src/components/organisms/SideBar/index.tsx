@@ -72,37 +72,37 @@ export default function Sidebar() {
           <ListItem button>
             <GridViewIcon />
            
-            <ListItemText primary="Home" />
+            <ListItemText data-testid="Home"primary="Home" />
           </ListItem>
 
           <ListItem button>
             <ContactsOutlinedIcon />
-            <ListItemText primary="Candidates" />
+            <ListItemText data-testid="Candidates" primary="Candidates" />
           </ListItem>
 
           <ListItem button>
             <GavelOutlinedIcon />
-            <ListItemText primary="Adverse Actions" />
+            <ListItemText data-testid="Adverse Actions" primary="Adverse Actions" />
           </ListItem>
 
           <ListItem button>
             <DescriptionOutlinedIcon />
-            <ListItemText primary="Logs" />
+            <ListItemText data-testid="Logs" primary="Logs" />
           </ListItem>
 
           <ListItem button>
             <InsertChartOutlinedIcon />
-            <ListItemText primary="Analytics" />
+            <ListItemText data-testid="Analytics" primary="Analytics" />
           </ListItem>
 
           <ListItem button>
             <ManageAccountsOutlinedIcon />
-            <ListItemText primary="Account" />
+            <ListItemText data-testid="Account" primary="Account" />
           </ListItem>
 
           <ListItem button>
             <WysiwygOutlinedIcon />
-            <ListItemText primary="Screenings" />
+            <ListItemText data-testid="Screenings" primary="Screenings" />
           </ListItem>
         </List>
         
