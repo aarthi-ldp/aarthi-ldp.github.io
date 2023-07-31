@@ -1,11 +1,15 @@
-import React from 'react';
+import React, { ReactNode } from 'react';
 import { Box } from '@mui/material';
 import TableMolecule, {TableData}  from '../../../components/molecules/table/index';
 import { ThemeProvider } from '@mui/material/styles'; 
 import theme from '../../../components/themes/index';
 import Layout from '../../../components/templates/Layout/index';
 
-const Table =() => {
+interface TableProps {
+    children?: ReactNode;
+  }
+  
+  const Table: React.FC<TableProps> = ({ children }) => {
     const headerLabels = ['NAME', 'ADJUSDICTION', 'STATUS', 'LOCATION', 'DATE'];
 
     const tableData:TableData[]= [
