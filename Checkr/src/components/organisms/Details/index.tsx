@@ -51,11 +51,11 @@ export const Details = () => {
           </AccordionSummary>
           <AccordionDetails>
           <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: '10px' }}>
-            {CardArray2.map((card, index) => (
-              <Box key={index} sx={{ flexBasis: '30%', border: '1px solid #ccc', padding: '10px', marginBottom: '10px', boxShadow: '0px 2px 5px rgba(0, 0, 0, 0.1)'}}>
+            {CardArray2.map((card) => (
+              <Box key={card.id} sx={{ flexBasis: '30%', border: '1px solid #ccc', padding: '10px', marginBottom: '10px', boxShadow: '0px 2px 5px rgba(0, 0, 0, 0.1)'}}>
               <Iconography
 
-              key={index}
+              key={card.id}
               iconComponent={card.iconComponent}
               iconAlt={card.iconAlt}
               text1={card.text1}

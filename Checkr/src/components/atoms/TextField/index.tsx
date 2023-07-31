@@ -9,7 +9,7 @@ export interface TextfieldProps {
   placeholder?: string; 
   label?: string;
   InputProps?: {
-    startAdornment?: JSX.Element;
+    startAdornment?: React.JSX.Element;
   };
 }
 

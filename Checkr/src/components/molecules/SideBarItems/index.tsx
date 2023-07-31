@@ -1,5 +1,5 @@
 import React from 'react';
-import Icon from '../../atoms/Icons/index';
+
 
 interface SidebarItemProps {
   icon: string; 

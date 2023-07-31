@@ -1,7 +1,7 @@
 import React from 'react';
 import Typography, { TypographyProps } from '@mui/material/Typography';
-import { useTheme } from '@mui/material/styles';
-import { Theme } from '@mui/material/styles';
+import { useTheme,Theme } from '@mui/material/styles';
+
 
 interface AtomTypographyProps extends TypographyProps {
   text?: string;

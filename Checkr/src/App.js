@@ -1,6 +1,5 @@
 import React from 'react';
 import Table from './components/organisms/tabledata/index';
-import './App.css';
 import { ThemeProvider } from '@mui/material/styles'; 
 import theme  from './components/themes/index';
 import Details  from './components/organisms/Details/index';

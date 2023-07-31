@@ -14,7 +14,7 @@ export default function  Footer () {
            James.co
           </Typography>
         </div>
-        <LogoutIcon style={{ marginLeft: '8px' }} />
+        <LogoutIcon data-testid="logout-icon" style={{ marginLeft: '8px' }} />
       </div>
     );
   };
