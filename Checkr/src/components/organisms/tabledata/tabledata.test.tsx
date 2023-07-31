@@ -3,7 +3,6 @@ import { render, screen } from '@testing-library/react';
 import Table from '../../../components/organisms/tabledata/index';
 import '@testing-library/jest-dom/extend-expect';
 
-// Mock the components used inside Table component (if necessary)
 jest.mock('../../../components/molecules/table/index', () => {
   return {
     __esModule: true,
